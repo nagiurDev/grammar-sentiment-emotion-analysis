@@ -1,0 +1,69 @@
+# 
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Conda and virtual environment
+.env
+.venv/
+env/
+.conda/
+.virtual_envs/
+
+# Jupyter Notebook
+.DS_Store
+.ipynb_checkpoints/
+
+# Testing related files
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.log
+.coverage
+*.out
+*.log
+
+# Output files
+output/
+models/*/*.bin # Exclude large model binary files - keep only config files etc.
+results/
+
+# Large datasets (use Hugging Face Datasets)
+data/*
+
+# IDE/Editor specific files
+.idea/
+*.suo
+*.ntvs*
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.dotCover
+*.resharper*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+
+# Local configuration files
+config.ini
+config.yaml
+settings.json
+*.cfg
+
+# Various
+*.log
+*.lock
+*.sqlite
+*.zip
